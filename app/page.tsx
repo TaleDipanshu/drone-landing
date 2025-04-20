@@ -43,12 +43,12 @@ export default function Home() {
             </Link>
           </nav>
           <div className="flex items-center gap-4">
-            <Link
+            {/* <Link
               href="/login"
               className="hidden sm:block text-sm font-medium text-white hover:text-purple-400 transition-colors"
             >
               Login
-            </Link>
+            </Link> */}
             <Link
               href="#booking"
               className="inline-flex h-10 items-center justify-center rounded-md border border-purple-600 bg-black px-6 text-sm font-medium text-white shadow-sm transition-colors hover:bg-purple-950 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-purple-500"

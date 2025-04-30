@@ -20,7 +20,7 @@ export default function Home() {
                 <span className="text-lg font-bold text-white">D</span>
               </div>
             </div>
-            <span className="text-xl font-bold text-white">DroneVista</span>
+            <span className="text-xl font-bold text-white">DroneMandi</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <Link href="#services" className="text-sm font-medium text-white hover:text-purple-400 transition-colors">
@@ -77,7 +77,7 @@ export default function Home() {
                     <span className="text-lg font-bold text-white">D</span>
                   </div>
                 </div>
-                <span className="text-xl font-bold text-white">DroneVista</span>
+                <span className="text-xl font-bold text-white">DroneMandi</span>
               </div>
               <p className="text-sm text-gray-400">Elevating perspectives, one flight at a time.</p>
             </div>
@@ -143,7 +143,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-8 border-t border-purple-900/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-xs text-gray-400">© {new Date().getFullYear()} DroneVista. All rights reserved.</p>
+            <p className="text-xs text-gray-400">© {new Date().getFullYear()} DroneMandi. All rights reserved.</p>
             <div className="flex items-center gap-4">
               <Link href="#" className="text-gray-400 hover:text-purple-400">
                 <svg

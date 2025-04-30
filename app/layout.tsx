@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "DroneVista - Premium Drone Services",
+  title: "DroneMandi - Premium Drone Services",
   description: "Professional drone services for photography, videography, mapping, and inspections.",
     generator: 'v0.dev'
 }

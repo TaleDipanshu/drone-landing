@@ -16,7 +16,7 @@ const testimonials = [
   {
     name: "Sarah Williams",
     role: "Event Coordinator",
-    content: "We hired DroneVista...",
+    content: "We hired DroneMandi...",
     avatar: "https://randomuser.me/api/portraits/women/44.jpg",
     rating: 5
   },
@@ -32,7 +32,7 @@ const testimonials = [
     name: "Emily Rodriguez",
     role: "Film Producer",
     content:
-      "As a filmmaker, I need reliable aerial cinematography. DroneVista delivers exceptional quality footage that elevates our productions.",
+      "As a filmmaker, I need reliable aerial cinematography. DroneMandi delivers exceptional quality footage that elevates our productions.",
     avatar: "https://randomuser.me/api/portraits/women/42.jpg",
     rating: 5,
   },

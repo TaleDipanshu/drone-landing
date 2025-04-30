@@ -47,18 +47,20 @@ export default function HeroSection() {
   // Recommended video types for drone websites
   const videoSources = [
     {
-      src: "/videos/drone-video2.mp4",
-      type: "video/mp4",
-      src: "/videos/drone-video.mp4",
-      type: "video/mp4",
+      src: "videos/drone-video.mp4",
+      type: "video/mp4"
     },
+    {
+      src: "videos/drone-video3.mp4", 
+      type: "video/mp4"
+    }
   ]
 
   return (
     <section ref={containerRef} className="relative overflow-hidden bg-black min-h-screen">
       <ParticlesBackground className="absolute inset-0 z-0" />
 
-      <div className="absolute inset-0 z-0 opacity-40">
+      <div className="absolute inset-0 z-0">
         <video
           ref={videoRef}
           className="h-full w-full object-cover"
@@ -67,6 +69,7 @@ export default function HeroSection() {
           loop
           playsInline
           poster="/placeholder.svg?height=1080&width=1920"
+          style={{ filter: 'brightness(0.9) contrast(3.2) saturate(2.1)' }}
         >
           {videoSources.map((source, index) => (
             <source key={index} src={source.src} type={source.type} />
